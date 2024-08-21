@@ -16,23 +16,18 @@
     <h1>Pokedex</h1>
 
     <ol id="pokemonList" class="pokemons">
-      <li class="pokemon">
-        <div class="info">
-          <span class="name">bulbasaur</span>
-          <span class="number">#001</span>
-        </div>
-        <div class="detail">
-          <ol class="types">
-            <li class="type">gras</li>
-            <li class="type">poison</li>
-          </ol>
-          <img src="" alt="" srcset="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png">
-        </div>
-      </li>
-
+        <!-- ..... Pokemons aqui ..... -->
     </ol>
-  </section>
+
+    <div class="pagination">
+        <button id="loadMoreButton" type="button">
+            Load More
+        </button>
+    </div>
+</section>
+
   <!--js-->
+  <script src="/assets/js/pokemon-model.js"></script>
   <script src="assets/js/poke-api.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
